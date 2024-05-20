@@ -23,17 +23,18 @@ namespace pets.Services
 
         //get sum of all ages
         // sorry, the syntax a little bit new for me and dont have time:)
-        public async int GetAsyncAgeSum()
+        /*public async int GetAsyncAgeSum()
         {
             int sum = 0;
             /*Task<List<Pet>> pets = GetAsync();
             for (int i = 0; i < pets.len(); i++)
             {
                 sum += pets[i].Age;
-            }*/
+            }
             return sum;
-        }
-        
+        }*/
+
+
         //add new pet
         public async Task<Pet> CreateAsync(Pet newPet)
         {

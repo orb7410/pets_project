@@ -25,7 +25,7 @@ namespace pets.Controllers
 
         // GET: api/pet
         [HttpGet]
-        public async int GetAgesSum() => await _petServices.GetAsyncAgeSum();
+        //public async int GetAgesSum() => await _petServices.GetAsyncAgeSum();
 
 
         // POST api/post

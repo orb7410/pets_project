@@ -1,0 +1,51 @@
+/* Provide sufficient contrast against white background */
+
+.add-new-btn{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+  padding: 9px;
+  border-radius: 4px;
+  margin-left: 20px;
+  width: 30px;
+}
+
+.add-btn a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.add-form{
+  margin: 20px;
+}
+
+.add-form input {
+  margin-left: 20px;
+  border: none;
+  border-bottom: 1px solid gainsboro;
+}
+.add-form select{
+  margin-left: 20px;
+}
+
+.add-btn {
+  background-color: green;
+  color: white;
+  padding: 9px;
+  border-radius: 4px;
+  margin-top: 20px;
+  width:fit-content;
+
+}
+
+pet-sum-btn {
+  background-color: green;
+  color: white;
+  padding: 9px;
+  border-radius: 4px;
+  margin-top: 20px;
+  width:fit-content;
+}
